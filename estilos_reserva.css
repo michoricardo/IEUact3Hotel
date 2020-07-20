@@ -1,0 +1,102 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: coral;
+    text-align: center;
+  }
+  .coralbutton
+  {
+    background-color: coral;
+  }
+label
+{
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+    font-size: 25px;
+}
+li
+{
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+    font-size: 15px;
+}
+.ache1
+{
+    font-family: 'Pacifico', cursive;
+    color:coral;
+}
+.ache2
+{
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+
+}
+.ache3
+{
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+    font-size: 20px;
+
+}
+.centered-thing {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+.colordif
+{
+    color: rgb(46, 23, 23);
+}
+.masgrande
+{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.medianito
+{
+    font-size: large;
+    font-weight: bold;
+}
+body
+{
+    background-image: url(vegas.jpg);
+}
+.otrofondo
+{
+    background-image: url(papitasfondo.jpg);
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }
+  div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: auto;
+    margin: 5px;
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+    background-color: rgb(1, 100, 31);
+    font-size: larger;
+}
+div.img2 {
+    border: 1px solid #ccc;
+}
